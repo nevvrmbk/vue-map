@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/eptormie
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://nevvrmbk.github.io
+  * I am eptormie (https://keybase.io/eptormie) on keybase.
+  * I have a public key ASDTP0uw-3tBPO6cWneG8KHrk_AhJhreCYk6kyALAszPBQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120d33f4bb0fb7b413cee9c5a7786f0a1eb93f021261ade09893a93200b02cccf050a",
+      "host": "keybase.io",
+      "kid": "0120d33f4bb0fb7b413cee9c5a7786f0a1eb93f021261ade09893a93200b02cccf050a",
+      "uid": "9c25940e8ea95f2df57ada320c188319",
+      "username": "eptormie"
+    },
+    "merkle_root": {
+      "ctime": 1644227801,
+      "hash": "bbde4242f75fc45d4f3744044ae0b97103ab1b6fc9df4adbece34473e641d804e8a9c66ce08b551db87539b37b19b8c51649b3f10df3aa27fae4e6b4fb589807",
+      "hash_meta": "37d0677a916f6432944fa47dbffc3d33727ee101c4339d6da2bcb6de6a1668a1",
+      "seqno": 21813742
+    },
+    "service": {
+      "entropy": "eS/FxqV9lYXjYxVL5kaSygzR",
+      "hostname": "nevvrmbk.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.9.0"
+  },
+  "ctime": 1644227837,
+  "expire_in": 504576000,
+  "prev": "45cc71c11397a6debf54025ae403ee875e694604e22d40297ee01d46a34c3664",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg0z9LsPt7QTzunFp3hvCh65PwISYa3gmJOpMgCwLMzwUKp3BheWxvYWTESpcCCsQgRcxxwROXpt6/VAJa5APuh15pRgTiLUApfuAdRqNMNmTEIFSQCbC/n880dQ+5GPLNWTRIjeKZa757b5djpqujg+jWAgHCo3NpZ8RAQQywZuGbTt5o+03Tv1F3sIMU7wz2ZngVmBzqU0yIZqyCfmn+2Vg/Cj5XaOqGyPgZkbOvpto7Ykw9602JTsWNDKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJ1kZHC7JaAe5C4HHG4XwP3bCXucdwptg5TiC9K70oUqo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/eptormie
+
+==================================================================
