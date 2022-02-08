@@ -7,11 +7,17 @@ import mapboxgl from "mapbox-gl";
 
 export default {
   name: "MapComponent",
+  data: () => ({
+    map: {
+      type: Object,
+      default: null,
+    },
+  }),
   mounted() {
     if (navigator.onLine && mapboxgl.supported()) {
       mapboxgl.accessToken =
         "pk.eyJ1IjoibGFua2xpc3EiLCJhIjoiY2t6Y2p4dGp4MDExNDMycGRydzM3N2ozZiJ9.MUkQ9fVe1-f0FSday6Fgag";
-      const map = new mapboxgl.Map({
+      this.map = new mapboxgl.Map({
         container: "map", // container ID
         style: "mapbox://styles/mapbox/streets-v11", // style URL
         center: [-74.5, 40], // starting position [lng, lat]
@@ -19,8 +25,10 @@ export default {
         cooperativeGestures: true,
         projection: "naturalEarth",
       });
-      map.addControl(new mapboxgl.FullscreenControl());
-      map.addControl(new mapboxgl.NavigationControl());
+      this.map.addControl(new mapboxgl.FullscreenControl());
+      this.map.addControl(new mapboxgl.NavigationControl());
+    } else {
+      window.alert("You are offline!");
     }
   },
   methods: {
