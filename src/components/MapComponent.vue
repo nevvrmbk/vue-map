@@ -15,6 +15,8 @@ export default {
   }),
   mounted() {
     if (navigator.onLine && mapboxgl.supported()) {
+      const post = fetch("https://am.i.mullvad.net/json").then((r) => r.json());
+      console.log(post);
       mapboxgl.accessToken =
         "pk.eyJ1IjoibGFua2xpc3EiLCJhIjoiY2t6Y2p4dGp4MDExNDMycGRydzM3N2ozZiJ9.MUkQ9fVe1-f0FSday6Fgag";
       this.map = new mapboxgl.Map({
